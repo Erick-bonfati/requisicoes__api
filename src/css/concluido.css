@@ -1,0 +1,51 @@
+@import url("header.css");
+@import url("style.css");
+
+.main__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  gap: 30px;
+}
+
+.texto__principal {
+  font-family: var(--fonte-principal);
+  font-weight: 700;
+  font-size: 32px;
+  color: green;
+}
+
+.grupo__envio {
+  display: flex;
+  gap: 50px
+}
+
+.lista__envio {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.lista__texto {
+  font-size: 22px;
+  font-family: var(--fonte-secundaria);
+}
+
+.links__envio {
+  font-size: 22px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: var(--background-claro);
+  transition: 1s;
+  font-family: var(--fonte-principal);
+}
+
+.links__envio:hover {
+  color: white;
+  background-color: var(--background-escuro);
+}

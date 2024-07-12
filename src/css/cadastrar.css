@@ -1,0 +1,93 @@
+@import url('style.css');
+@import url('header.css');
+
+
+.main__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+
+#form__funcionario {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border: 3px solid black;
+  padding: 30px;
+  border-radius: 10px;
+  width: 40%;
+  background-color: var(--background-header);
+}
+
+.main__form__text {
+  font-size: 26px;
+  text-align: center;
+  font-family: var(--fonte-principal);
+  font-weight: 600;
+}
+
+.li__form {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.label__li {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-family: var(--fonte-principal);
+}
+
+.input__form {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: var(--background-claro);
+  font-family: var(--fonte-secundaria);
+}
+
+.botao__cadastrar {
+  border: 2px solid black;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin: 0 150px 10px 150px;
+  cursor: pointer;
+  transition: 1s;
+  font-family: var(--fonte-principal);
+  font-weight: 700;
+  background-color: var(--background-claro);
+}
+
+.botao__cadastrar:hover{
+  background-color: var(--background-escuro);
+  color: white;
+}
+
+.erro__input {
+  font-family: var(--fonte-secundaria);
+  display: none;
+}
+
+.active{
+  color: red;
+  font-family: var(--fonte-secundaria);
+  display: block;
+}
+
+.nome__form__error {
+  border: 2px solid red;
+}
+
+.idade__form__error {
+  border: 2px solid red;
+}
+
+.cargo__form__error {
+  border: 2px solid red;
+}

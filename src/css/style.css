@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --fonte-principal: "Montserrat", sans-serif;
+  --fonte-secundaria: "Roboto", sans-serif;
+  --background: #96C9F4;
+  --background-header: #36C2CE;
+  --background-escuro: #4535C1;
+  --background-claro: #b9f7e7;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: var(--background)
+}
+
+.secao__principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.introducao {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.introducao__title {
+  text-align: center;
+  font-size: 28px;
+  font-family: var(--fonte-principal);
+}
+
+.introducao__text {
+  text-align: center;
+  font-size: 18px;
+  font-family: var(--fonte-secundaria);
+}
+
+.funcionarios__cadastrados {
+  width: 70%;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: var(--background-header);
+}
+
+
+.lista__funcionarios {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.funcionario__selecionado {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: var(--fonte-secundaria);
+  background-color: var(--background-claro);
+}
+
+.negrito {
+  font-weight: 700;
+}
